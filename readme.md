@@ -40,3 +40,12 @@ git push -u <remote_repo_name> <branch_name> (связать локальную 
 git push
 ```
 
+## Статусная модель файлов репозитория
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged -- "изменения" --> modified;
+  modified -- "git add" --> staged;
+  staged -- "git commit" --> tracked;
+  tracked -- "изменения" --> modified;
+```
