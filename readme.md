@@ -22,6 +22,10 @@ git commit -m <message>
 ```
 git log
 ```
+- **git log --oneline - вывести сокращенную информацию о коммитах
+```
+git log --oneline
+```
 - **git remote add** - связать локальный репозиторий с удаленным
 ```
 git remote add origin <link_to_remote_repo>
