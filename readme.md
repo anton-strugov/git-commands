@@ -41,6 +41,15 @@ git remote -v
 git push -u <remote_repo_name> <branch_name> (связать локальную ветку с удаленной)
 git push
 ```
+- **git restore** - откатить изменения файла(ов)
+```
+git restore <filename> (откатить изменения файла по последней сохраненной версии (в коммите или staging)
+git restore --staged <filename> (перевести из staged в modified или untracked)
+```
+- **git reset --hard <commit_hash>** - откатить историю до коммита с хэшем commit_hash
+```
+git reset --hard <commit_hash>
+```
 
 ## Статусная модель файлов репозитория
 ```mermaid
