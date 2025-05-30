@@ -18,6 +18,8 @@ git add --all
 ```
 git commit -m <message>
 ```
+- **git commit --amend --no-edit** - дополнить последний коммит без изменения сообщения
+- **git commit --amend -m <message>** - дополнить последний коммит с изменением сообщения
 - **git log** - вывести историю коммитов
 ```
 git log
