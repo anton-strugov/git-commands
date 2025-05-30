@@ -32,7 +32,7 @@ git remote -v
 ```
 - **git push** - отправить изменения на удаленный репозиторий
 ```
-git push -u <remote_repo_name> <branch_name> __(связать локальную ветку с удаленной)__
+git push -u <remote_repo_name> <branch_name> (связать локальную ветку с удаленной)
 git push
 ```
 
