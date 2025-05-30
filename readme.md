@@ -22,7 +22,7 @@ git commit -m <message>
 ```
 git log
 ```
-- **git log --oneline - вывести сокращенную информацию о коммитах
+- **git log** --oneline - вывести сокращенную информацию о коммитах
 ```
 git log --oneline
 ```
