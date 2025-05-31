@@ -66,6 +66,11 @@ git diff <hash_a> <hash_b> - показать изменения между ко
 git branch (вывести список веток репозитория)
 git branch <branch_name> (создать ветку с именем branch_name)
 ```
+- **git checkout** - переключение между ветками репозитория
+```
+git checkout <branch_name> (переключиться на ветку branch_name)
+git checkout -b <branch_name> (создать новую ветку branch_name и переключиться на нее)
+```
 ## Статусная модель файлов репозитория
 ```mermaid
 graph LR;
