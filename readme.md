@@ -76,6 +76,13 @@ git checkout <branch_name> (переключиться на ветку branch_na
 git checkout -b <branch_name> (создать новую ветку branch_name и переключиться на нее)
 ```
 - **git merge <branch_name>** - объединить ветку branch_name  текущей
+```
+git merge <branch_name>
+```
+- **git pull** - получить изменения из удаленного репозитория в локальный
+```
+git pull
+```
 ## Статусная модель файлов репозитория
 ```mermaid
 graph LR;
