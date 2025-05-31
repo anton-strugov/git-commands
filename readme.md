@@ -54,12 +54,13 @@ git restore --staged <filename> (перевести из staged в modified ил
 ```
 git reset --hard <commit_hash>
 ```
-- **git diff** - показать изменения между версиями файла(ов)
+- **git diff** - показать изменения между коммитами или ветками
 ```
 git diff (показать изменения между закоммиченными файлами и modified)
 git diff --staged (показать измерения между staged и modified)
-git diff <hash_a> <hash_b> - показать изменения между коммитами с хэшем а и хэшем b
-
+git diff <hash_a> <hash_b> (показать изменения между коммитами с хэшем а и хэшем b)
+git diff <branch_a> <branch_b> (изменения между ветками branch_a и branch_b)
+git diff HEAD~1 HEAD (изменения между предпоследним коммитом и последним (суффикс ~N))
 ```
 - **git branch** - действия с ветками репозитория
 ```
