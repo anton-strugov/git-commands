@@ -75,6 +75,7 @@ git branch -d <branch_name> (безопасно удалить ветку branch
 git checkout <branch_name> (переключиться на ветку branch_name)
 git checkout -b <branch_name> (создать новую ветку branch_name и переключиться на нее)
 ```
+- **git merge <branch_name>** - объединить ветку branch_name  текущей
 ## Статусная модель файлов репозитория
 ```mermaid
 graph LR;
