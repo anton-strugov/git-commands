@@ -50,7 +50,11 @@ git restore --staged <filename> (перевести из staged в modified ил
 ```
 git reset --hard <commit_hash>
 ```
-
+- **git diff** - показать изменения между закоммиченными файлами и modified
+```
+git diff
+git diff --staged (показать измерения между staged и modified)
+```
 ## Статусная модель файлов репозитория
 ```mermaid
 graph LR;
